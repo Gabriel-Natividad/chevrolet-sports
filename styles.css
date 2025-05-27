@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: black;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background: url('/assets/camaro.jpg') center/cover no-repeat;
+  padding: 6rem 2rem;
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #d4af37;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.modelos, .comparar, .ofertas, .contacto {
+  padding: 2rem;
+  background-color: white;
+  margin-bottom: 2rem;
+}
+
+.modelo-card {
+  background: #f0f0f0;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
